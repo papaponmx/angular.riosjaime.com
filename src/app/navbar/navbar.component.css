@@ -26,7 +26,7 @@
 }
 
 
-.navigation #menu__icon a {
+.navigation #menu__icon {
     display: none;
   }
 
@@ -48,14 +48,14 @@
   .navigation li:last-of-type a {
     border-bottom: none;
   }
-.navigation #menu__icon a {
-  display: block;
+
+  .navigation #menu__icon {
+    display: block;
+  }
+
 }
 
-
-}
-
-c  .navigation #menu__icon a {
+ .navigation #menu__icon a {
     color: tomato;
     font-size: 1.5em;
   }

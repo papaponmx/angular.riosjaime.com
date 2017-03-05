@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -11,12 +11,14 @@ export class NavbarComponent {
 
   constructor() { }
 
-  public getMenuIcon() {
+  onInit() {
+
+  }
+
+  public toggleNav() {
     this.isCollapsed = !this.isCollapsed;
-    console.log(`Botton menu clicked`);
     !this.isCollapsed ? this.menuIcon = '✖' : this.menuIcon = '☰';
-    return this.menuIcon;
-  //   : '✖';
+   // return this.menuIcon;
   }
 
 }
