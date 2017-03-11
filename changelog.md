@@ -5,10 +5,10 @@
 
 # TODO 
 
-* Add homepage component
 * Add Routing 
+* Add Base fontstyle 
+* Add homepage component
 * Add contact component
 * Add About component
 * Add Work Component
 * Add Footer Component
-* Add Base fontstyle 
