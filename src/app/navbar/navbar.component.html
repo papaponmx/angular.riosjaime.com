@@ -1,11 +1,10 @@
-<nav>
-  <ul class="navigation">
+<nav class="nav-main">
+  <div class="logo">RIOS JAIME</div>
+  <ul [ngClass]="{ 'isCollapsed': isCollapsed, 'isNotCollapsed' : isNotCollapsed }">
     <li><a href="#" (click)="toggleNav()" id="menu__icon">{{menuIcon}}</a></li>
-    <span *ngIf="!isCollapsed">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Work</a></li>
-    <li><a href="#">Contact</a></li>
-    </span>
+    <li><a href="" class="nav-item">Home</a></li>
+    <li><a href="" class="nav-item">About</a></li>
+    <li><a href="" class="nav-item">Work</a></li>
+    <li><a href="" class="nav-item">Contact</a></li>
   </ul>
 </nav>
