@@ -1,12 +1,11 @@
 # DONE
 * Added Basic Navigation 
-
+* Integrated SASS
+* Navigation is fully responsive.
 
 # TODO 
 
 * Add homepage component
-* Navigation doesn't show properly on bigger screens.
-* Integrate SASS
 * Add Routing 
 * Add contact component
 * Add About component

@@ -1,95 +1,71 @@
-.nav-main {
+nav {
+  position: fixed;
   width: 100%;
-  background: #222;
-  min-height: 70px;
-  color: #fff;
-
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
 }
 
-.nav-main .logo {
-  height: 40px;
-  width: 100px;
-  padding: .5em;
-  background: darkorange;
-  font-size: 1em;
-  line-height: 40px;
-  align-self: flex-start;
-}
-
-.nav-main > ul {
-  padding: 20px;
+.nav-bar {
+  list-style: none;
   margin: 0;
-  list-style-type: none;
+
+  background: #111;
 
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-end;
 
 }
 
-.nav-item {
-  padding: 15px 20px;
-  height: 100%;
+.nav-bar a {
   text-decoration: none;
-
-
-  &:hover {
-    background: lighten(#000, 45%);
-  }
-
-  &:visited {
-    color: darken(#fff, 22%);
-  }
+  display: block;
+  padding: 1em;
+  color: white;
 }
 
-  #menu-icon {
-   display: none;
+.nav-bar a:hover {
+  background: lighten(#111, 15%);
 }
 
+@media screen and (min-width: 600px) {
+    .nav-bar > span {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+}
+
+
+.nav-bar #menu__icon {
+    display: none;
+  }
 
 @media all and (max-width: 600px) {
-  #menu-icon {
-    display: inline-block;
+  .nav-bar {
+    flex-flow: column wrap;
+    padding: 0;
   }
 
-  #menu__icon:visited {
-    color: white;
-    text-decoration: none;
+  .nav-bar a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+
   }
 
-
-  .isCollapsed > li:not(:first-child){
+  .isCollapsed {
     display: none;
   }
 
 
-  .isNotCollapsed {
-    padding: 20px;
-    margin: 0;
-    list-style-type: none;
 
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
-    align-items: center;
+  .nav-bar li:last-of-type a {
+    border-bottom: none;
+  }
 
-    & > li {
-        padding: 15px;
-        width: 100px;
-        text-align: center;
-        margin-bottom: 15px;
-
-        &:not(:first-child){
-            border: 1px solid #fff;
-
-        }
-
-      }
+  .nav-bar #menu__icon {
+    display: block;
   }
 
 }
+
+
