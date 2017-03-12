@@ -1,0 +1,58 @@
+.container {
+  min-height: 100vh;
+  max-width: 900px;
+  min-width: 95vh;
+
+}
+
+.main {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+/*
+ *  FLEXBOX CLASSES
+ */
+
+.flex-row-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+
+.flex-column-center, .main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+.flex-column-center-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+@media screen and (max-width: 600px){
+  .flex-row-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+  }
+
+}
+
+
+
+/*
+ *  COLUMN CLASSES
+ */
+
+.col-half {
+  max-width: 45%;
+
+}

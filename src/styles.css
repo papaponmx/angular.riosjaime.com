@@ -1,2 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-@import url("assets/css/normalize.css");
+@import url("assets/scss/normalize.scss");
+@import url("assets/scss/base.scss");
+@import url("assets/scss/fonts.scss");
+

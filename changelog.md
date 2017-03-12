@@ -3,11 +3,11 @@
 * Integrated SASS
 * Navigation is fully responsive.
 * Add Routing 
+* Add home-page component
 
 # TODO 
 
 * Add Base fontstyle 
-* Add homepage component
 * Add contact component
 * Add About component
 * Add Work Component
