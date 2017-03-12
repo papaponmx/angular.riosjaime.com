@@ -2,10 +2,10 @@
   <ul class="nav-bar">
     <li><a href="#" (click)="toggleNav()" id="menu__icon">{{menuIcon}}</a></li>
     <span [ngClass]="{ 'isCollapsed': isCollapsed, 'isNotCollapsed' : isNotCollapsed }">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Work</a></li>
-    <li><a href="#">Contact</a></li>
+    <li><a routerLink="/">Home</a></li>
+    <li><a routerLinkActive="active" routerLink="/about">About</a></li>
+    <li><a routerLinkActive="active" routerLink="/work">Work</a></li>
+    <li><a routerLinkActive="active" routerLink="/contact">Contact</a></li>
     </span>
   </ul>
 </nav>

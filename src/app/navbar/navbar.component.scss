@@ -1,5 +1,5 @@
 nav {
-  position: fixed;
+ // position: fixed;
   width: 100%;
 }
 
@@ -23,6 +23,12 @@ nav {
 
 .nav-bar a:hover {
   background: lighten(#111, 15%);
+}
+
+a.active {
+  background: lighten( #000 , 15%);
+  color: white;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 600px) {

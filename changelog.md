@@ -2,10 +2,10 @@
 * Added Basic Navigation 
 * Integrated SASS
 * Navigation is fully responsive.
+* Add Routing 
 
 # TODO 
 
-* Add Routing 
 * Add Base fontstyle 
 * Add homepage component
 * Add contact component
