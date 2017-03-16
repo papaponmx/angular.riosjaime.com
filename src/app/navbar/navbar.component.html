@@ -3,9 +3,9 @@
     <li><a href="#" (click)="toggleNav()" id="menu__icon">{{menuIcon}}</a></li>
     <span [ngClass]="{ 'isCollapsed': isCollapsed, 'isNotCollapsed' : isNotCollapsed }">
     <li><a routerLink="/">Home</a></li>
-    <li><a routerLinkActive="active" routerLink="/about">About</a></li>
-    <li><a routerLinkActive="active" routerLink="/work">Work</a></li>
-    <li><a routerLinkActive="active" routerLink="/contact">Contact</a></li>
+    <li><a routerLinkActive="active" routerLink="/about" (click)="toggleNav()">About</a></li>
+    <li><a routerLinkActive="active" routerLink="/work" (click)="toggleNav()">Work</a></li>
+    <li><a routerLinkActive="active" routerLink="/contact" (click)="toggleNav()">Contact</a></li>
     </span>
   </ul>
 </nav>
