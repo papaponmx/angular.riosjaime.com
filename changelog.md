@@ -12,3 +12,6 @@
 * Add About component
 * Add Work Component
 * Add Footer Component
+* Add a Blog Component
+* Add a Medium service.
+

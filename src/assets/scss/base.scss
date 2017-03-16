@@ -5,6 +5,17 @@
 
 }
 
+.container-text{
+  max-width: 800px;
+  min-width: 95vh;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
 .main {
   max-width: 100%;
   overflow-x: hidden;
@@ -56,3 +67,4 @@
   max-width: 45%;
 
 }
+
