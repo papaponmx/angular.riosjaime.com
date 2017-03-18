@@ -1,26 +1,19 @@
 .container {
   min-height: 100vh;
-  max-width: 900px;
-  min-width: 95vh;
+  width: 900px;
+  max-width: 90vw;
 
 }
 
 .container-text{
-  max-width: 800px;
-  min-width: 95vh;
-
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  width: 700px;
+  max-width: 95vw;
 }
-
 
 .main {
   max-width: 100%;
   overflow-x: hidden;
 }
-
 
 /*
  *  FLEXBOX CLASSES

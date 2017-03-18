@@ -1,24 +1,49 @@
-
-/*
- * Variables
- */
-$spacing-unit: 24px;
-$base-font: sans-serif;
-
-/*
- * Headers
- */
-
-
-
-
-
-/*
- * .container-text Headers
- */
-
-.container-text > h1 {
-  color: tomato;
-  //margin-top: 48px;
-
+.container-text {
+  margin-top: 24px;
+  color: #444;
 }
+
+ .container-text >  h1 {
+   font-size: 2.5em;
+   margin-top: 1em;
+   margin-bottom: -.25em;
+ }
+
+ .container-text >  h2 {
+   font-size: 2em;
+   margin-top: 1em;
+   margin-bottom: -.25em;
+
+  }
+
+ .container-text >  h3 {
+   color: darkred;
+ }
+
+.container-text > p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin: 1em 0;
+}
+
+.container-text > p > a {
+  color:darkred;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.container-text > p > a:hover,
+.container-text > p > a:active  {
+    text-decoration: underline;
+  }
+
+.container-text > p > a:visited {
+  color: lighten(darkred 15%)
+}
+
+$greatest-color: #043423;
+$greatest-color: tomato;
+
+/*
+ * NOTE: There is partial support for SASS with the angular CLI so far.
+ */
