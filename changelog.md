@@ -5,14 +5,14 @@
 * Add Routing. 
 * Add home-page component.
 * Add About component.
+* Add Contact component.
+* Add Work Component.
 
 # TODO 
 
 * Add Base fontstyle.
-* Add contact component.
 * Add Footer Component.
 * Define base colors.
-* Add Work Component.
 * Add a Blog Component.
 * Add a Medium service.
-
+* Add case studies.

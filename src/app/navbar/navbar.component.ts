@@ -20,7 +20,6 @@ export class NavbarComponent {
     this.isCollapsed = !this.isCollapsed;
     this.isNotCollapsed = !this.isNotCollapsed;
     !this.isCollapsed ? this.menuIcon = '✖' : this.menuIcon = '☰';
-   // return this.menuIcon;
   }
 
 }
