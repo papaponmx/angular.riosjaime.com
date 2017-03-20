@@ -11,6 +11,7 @@
 # TODO 
 
 * Add Base fontstyle.
+* Add social component
 * Add Footer Component.
 * Define base colors.
 * Add a Blog Component.

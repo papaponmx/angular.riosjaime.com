@@ -6,13 +6,15 @@ import { RoutingModule, RoutingComponents } from './routing/routing.module';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { SocialsComponent } from './socials/socials.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    RoutingComponents
+    RoutingComponents,
+    SocialsComponent
   ],
   imports: [
     BrowserModule,
