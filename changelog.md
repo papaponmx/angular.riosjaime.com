@@ -7,12 +7,12 @@
 * Add About component.
 * Add Contact component.
 * Add Work Component.
+* Add social component
 
 # TODO 
 
-* Add Base fontstyle.
-* Add social component
 * Add Footer Component.
+* Add Base fontstyle.
 * Define base colors.
 * Add a Blog Component.
 * Add a Medium service.

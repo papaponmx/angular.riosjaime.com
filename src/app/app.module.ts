@@ -7,6 +7,7 @@ import { RoutingModule, RoutingComponents } from './routing/routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SocialsComponent } from './socials/socials.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { SocialsComponent } from './socials/socials.component';
     AppComponent,
     NavbarComponent,
     RoutingComponents,
-    SocialsComponent
+    SocialsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
