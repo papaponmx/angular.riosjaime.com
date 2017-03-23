@@ -11,41 +11,41 @@ blockquote {
   margin-top: 24px;
 }
 
- .container-text >  h1 {
+ .container-text >  h1, h1 {
    font-size: 2.5em;
    margin-top: 1em;
    margin-bottom: -.25em;
  }
 
- .container-text >  h2 {
+ .container-text >  h2, h2 {
    font-size: 2em;
    margin-top: 1em;
    margin-bottom: -.25em;
 
   }
 
- .container-text >  h3 {
+ .container-text >  h3, h3 {
    color: darkred;
  }
 
-.container-text > p {
-  font-size: 1.5em;
+.container-text > p, p {
+  font-size: 1.25em;
   line-height: 1.5em;
   margin: 1em 0;
 }
 
-.container-text > p > a {
+.container-text > p > a, a {
   color:darkred;
   font-weight: bold;
   text-decoration: none;
 }
 
-.container-text > p > a:hover,
-.container-text > p > a:active  {
+.container-text > p > a:hover, a:hover,
+.container-text > p > a:active, a:active  {
     text-decoration: underline;
   }
 
-.container-text > p > a:visited {
+.container-text > p > a:visited, a:visited {
   color: lighten(darkred 15%)
 }
 

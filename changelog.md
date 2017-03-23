@@ -8,10 +8,10 @@
 * Add Contact component.
 * Add Work Component.
 * Add social component
+* Add Footer Component.
 
 # TODO 
 
-* Add Footer Component.
 * Add Base fontstyle.
 * Define base colors.
 * Add a Blog Component.
