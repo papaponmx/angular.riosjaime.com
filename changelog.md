@@ -9,11 +9,11 @@
 * Add Work Component.
 * Add social component
 * Add Footer Component.
+* Add Base fontstyle.
 
 # TODO 
 
-* Add Base fontstyle.
 * Define base colors.
-* Add a Blog Component.
 * Add a Medium service.
 * Add case studies.
+* Add a Blog Component.

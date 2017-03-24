@@ -7,7 +7,7 @@ nav {
   list-style: none;
   margin: 0;
 
-  background: #333;
+  background: #d6111e;
 
   display: flex;
   justify-content: flex-end;
@@ -26,12 +26,6 @@ nav {
 
 .nav-bar a:hover {
   background: lighten(#333, 15%);
-}
-
-a.active {
-  background: lighten( #333 , 15%);
-  color: white;
-  font-weight: bold;
 }
 
 @media screen and (min-width: 600px) {
