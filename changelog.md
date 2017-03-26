@@ -10,10 +10,11 @@
 * Add social component
 * Add Footer Component.
 * Add Base fontstyle.
+* Define base colors.
 
 # TODO 
 
-* Define base colors.
+* Add demo projects component.
 * Add a Medium service.
-* Add case studies.
 * Add a Blog Component.
+* Add case studies.

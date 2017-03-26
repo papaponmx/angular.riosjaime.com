@@ -5,7 +5,7 @@
   justify-content: space-between;
 
   a svg[id^=social] {
-      fill: #333;
+      fill: #12606a;
       height: 4.25em;
       width: 4.25em;
       max-height: 15vw;
@@ -17,7 +17,7 @@
 
 
   a svg[id^=social]:hover, a svg[id^=social]:active, a svg[id^=social]:focus {
-    fill: #d6111e;
+    fill: darken(#4dd0e1, 10%);
   }
 
 }

@@ -14,19 +14,18 @@ blockquote {
    font-size: 2.5em;
    margin-top: 1em;
    margin-bottom: -.25em;
-   color: #d6111e
+   color: #12606a;
  }
 
  .container-text >  h2, h2 {
    font-size: 2em;
    margin-top: 1em;
    margin-bottom: -.25em;
-   color: #d6111e
-
+   color: #12606a;
   }
 
  .container-text >  h3, h3 {
-   color: #d6111e;
+   color: #12606a;
  }
 
 .container-text > p, p {
@@ -37,7 +36,7 @@ blockquote {
 }
 
 .container-text > p > a, a {
-  color: #d6111e;
+  color: #4dd0e1;
   font-weight: bold;
   text-decoration: none;
 }
@@ -48,7 +47,7 @@ blockquote {
   }
 
 .container-text > p > a:visited, a:visited {
-  color: lighten(#d6111e 15%)
+  color: #12606a;
 }
 
 $greatest-color: #043423;
