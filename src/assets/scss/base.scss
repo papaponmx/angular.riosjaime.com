@@ -61,3 +61,47 @@
 
 }
 
+
+/*
+ * This contains a general CSS classes for  * things like Bootstrap btn, pills, badges, * etc.
+ */
+
+a.btn {
+    background-color: #26c6da;
+    border-radius: 1em;
+    box-shadow: 2px 2px #bbb;
+    padding: .75em 1.5em;
+    transition: .25s;
+    color: #222;
+    font-weight: 300;
+    text-transform: uppercase;
+
+}
+
+a.btn:hover {
+    background-color: #67d7e5;
+    box-shadow: 3px 3px #666;
+}
+
+.card {
+  border-radius: 1em;
+  border: 1px solid #bbb;
+  margin-top: 2em;
+  padding: 0 1.5em;
+}
+
+.card:hover {
+  border-radius: 1em;
+  border: 1px solid #12606a;
+  box-shadow: 2px 2px #12606a;
+}
+
+a.label {
+  background: #222;
+  border-radius: .5em;
+  color: #ccc;
+  font-size: .75em;
+  font-weight: 300;
+  margin: 1em 0;
+  padding: .5em;
+}

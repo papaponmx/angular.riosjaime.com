@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HomePageComponent implements OnInit {
   description =
   `I design and develop websites for people who want intuitive, engaging and compelling solutions to their toughest problems.`;
-  imgUrl = 'https://riosjaime.com/assets/images/profile2.jpg';
+  imgUrl = 'https://riosjaime.com/assets/img/profile2.jpg';
 
   constructor() { }
 
