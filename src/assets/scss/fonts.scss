@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+h1, h2, h3, h4 ,h5 ,h6, blockquote {
+    color:  #12606a;
+    font-family: 'Lato', sans-serif;
+}
+
 blockquote {
-  font-family: Georgia;
   font-size: 1.5em;
   font-weight: 200;
   font-style: italic;
@@ -10,43 +16,41 @@ blockquote {
   margin-top: 24px;
 }
 
- .container-text >  h1, h1 {
+h1 {
    font-size: 2.5em;
    margin-top: 1em;
    margin-bottom: -.25em;
-   color: #12606a;
  }
 
- .container-text >  h2, h2 {
+ h2 {
    font-size: 2em;
    margin-top: 1em;
    margin-bottom: -.25em;
-   color: #12606a;
+
   }
 
- .container-text >  h3, h3 {
-   color: #12606a;
- }
-
-.container-text > p, p {
+p, ol, ul, li {
   color: #333;
-  font-size: 1.25em;
+  font-size: 1em;
   line-height: 1.5em;
+
+}
+
+ p, ol, ul {
   margin: 1em 0;
 }
 
-.container-text > p > a, a {
-  color: #4dd0e1;
+ a {
+  color: #12606a;
   font-weight: bold;
   text-decoration: none;
 }
 
-.container-text > p > a:hover, a:hover,
-.container-text > p > a:active, a:active  {
+ a:hover,a:active  {
     text-decoration: underline;
   }
 
-.container-text > p > a:visited, a:visited {
+ a:visited {
   color: #12606a;
 }
 
