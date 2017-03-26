@@ -5,6 +5,14 @@ img.home__img{
   max-height: 45vh;
   max-width: 45vw;
   margin-top: 5em;
+
+   transition: all .5s;
+}
+
+img.home__img:hover{
+  transform: scale(1.25) rotate(5deg);
+  border: 5px solid #4dd0e1;
+
 }
 
 .home__text {
