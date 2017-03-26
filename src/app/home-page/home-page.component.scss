@@ -1,5 +1,6 @@
 img.home__img{
   border-radius: 50%;
+  border: 5px solid #fff;
   height: 150px;
   width: 150px;
   max-height: 45vh;
@@ -10,7 +11,7 @@ img.home__img{
 }
 
 img.home__img:hover{
-  transform: scale(1.25) rotate(5deg);
+  transform: /*scale(1.25)*/ rotate(5deg);
   border: 5px solid #4dd0e1;
 
 }
