@@ -1,0 +1,19 @@
+/*
+ * This contains a general CSS classes for  * things like Bootstrap btn, pills, badges, * etc.
+ */
+
+a.btn {
+    background-color: #26c6da;
+    border-radius: 1em;
+    box-shadow: 2px 2px #bbb;
+    color: #222;
+    font-weight: 300;
+    padding: .75em 1.5em;
+    text-transform: uppercase;
+    transition: .25s;
+ }
+
+a.btn:hover {
+    background-color: lighten( #26c6da, 15%);
+    box-shadow: 3px 3px #666;
+}
