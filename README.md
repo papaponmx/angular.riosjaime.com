@@ -1,4 +1,4 @@
-# Riosjaime.Com
+# riosjaime.com
 
 This is the latest iteration of my website, thanks for taking the time to review my code.
 
