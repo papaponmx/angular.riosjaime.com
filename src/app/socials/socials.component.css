@@ -1,0 +1,18 @@
+.socials {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  align-items: left;
+  justify-content: space-between;
+}
+.socials a svg[id^=social] {
+  fill: #12606a;
+  height: 4.25em;
+  width: 4.25em;
+  max-height: 15vw;
+  max-width: 15vw;
+  margin-right: .5em;
+  transition: .25s;
+}
+.socials a svg[id^=social]:hover, .socials a svg[id^=social]:active, .socials a svg[id^=social]:focus {
+  fill: #24c2d7;
+}
