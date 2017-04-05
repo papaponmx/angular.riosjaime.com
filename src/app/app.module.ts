@@ -9,6 +9,10 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SocialsComponent } from './socials/socials.component';
 import { FooterComponent } from './footer/footer.component';
 
+import { MediumService } from './medium.service';
+
+
+
 
 @NgModule({
   declarations: [
@@ -24,7 +28,7 @@ import { FooterComponent } from './footer/footer.component';
     HttpModule,
     RoutingModule
   ],
-  providers: [],
+  providers: [ MediumService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

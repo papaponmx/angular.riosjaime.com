@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MediumService } from '../medium.service';
 
 @Component({
   selector: 'app-home-page',
@@ -10,9 +11,10 @@ export class HomePageComponent implements OnInit {
   `I design and develop websites for people who want intuitive, engaging and compelling solutions to their toughest problems.`;
   imgUrl = 'https://riosjaime.com/assets/img/profile2.jpg';
 
-  constructor() { }
+  constructor(private _MediumService: MediumService) { }
 
   ngOnInit() {
+    console.log(this._MediumService.getPosts());
   }
 
 }
